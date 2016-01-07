@@ -8,9 +8,9 @@
 <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
 <body ng-app>
 <div class="container">
-	<h1>Angular Basic</h1>
-	<p><input type="text" class="form-control" ng-model="input_text" /></p>
-	<p>{{ 'input_text: ' + input_text }}</p>	
+	<div ng-include="'app/views/header.html'"></div>
+	<div ng-include="'app/views/content.html'"></div>
+	<div ng-include="'app/views/footer.html'"></div>
 </div>
 <!-- container -->
 
